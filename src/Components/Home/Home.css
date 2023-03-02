@@ -1,0 +1,215 @@
+#ca{
+    background-color: darkgrey;
+}
+.W{
+    font-family: 'Bebas Neue', cursive;
+}
+.Figurecap{
+  display: flex;
+  font-family: 'Alumni Sans Inline One', cursive;
+   font-family: 'Lobster', cursive;
+  font-family: 'Mouse Memoirs', sans-serif;
+  color: black;
+  font-weight: 900;
+  position: relative;
+  text-align: center;
+    bottom: 309px;
+    left:40%;
+    font-size: xx-large;
+}
+.greyBg{
+  background-color: rgba(210, 204, 204, 0.508);
+  margin-left: 4%;
+  position: relative;
+  left: 24%;
+}
+.head{
+  text-align: center;
+  position: relative;
+  bottom: -30%;
+  right: -7;
+  font-size: 50px;
+}
+.purchase{
+  text-align: right;
+  font-weight: bolder;
+  position: relative;
+  bottom: -30%;
+  font-size: 50px;
+}
+.columnn{
+  position: relative;
+  padding: -1%;
+  margin-left: 6%;
+  margin-top: 5%;
+}
+.vintagestyle{
+  left: 161%;
+    position: absolute;
+    margin-top: -94%;
+}
+
+/* .Poster{
+  position: relative;
+  display: flex;
+  margin-top: 5rem;
+  left: 10%;
+} */
+.tittle{
+  position: relative;
+    text-align: center;
+    height: -11%;
+    bottom: 324px;
+    left: -14%;}
+@media(min-width:300px) and (max-width:500px) {
+    .W{
+        font-weight: bolder;
+        font-size: 22px;
+        top: 70px;
+        position: absolute;
+        margin: 0px;
+        padding: 0px;
+        width: 40%;
+        margin-left: 60px;
+  }
+}
+@media(min-width:501px) and (max-width:800px) {
+    .W{
+        font-weight: bolder;
+        font-size: 46px;
+        top: 72px;
+        position: absolute;
+        margin: 0px;
+        padding: 0px;
+        width: 50%;
+        margin-left: 60px;
+  }
+}
+@media(min-width:801px) and (max-width:1024px) {
+    .W{
+        font-weight: bolder;
+        font-size: 74px;
+        top: 72px;
+        position: absolute;
+        margin: 0px;
+        padding: 0px;
+        width: 50%;
+        margin-left: 95px;
+  }
+}
+@media(min-width:1025px) and (max-width:1200px) {
+    .W{
+        font-weight: bolder;
+        font-size: 84px;
+        top: 72px;
+        position: absolute;
+        margin: 0px;
+        padding: 0px;
+        width: 50%;
+        margin-left: 155px;
+  }
+}
+@media(min-width:1201px) and (max-width:1440px) {
+    .W{
+        font-weight: bolder;
+        font-size: 120px;
+        top: 72px;
+        position: absolute;
+        margin: 0px;
+        padding: 0px;
+        width: 50%;
+        margin-left: 180px;
+  }
+}
+@media(min-width:1441px) and (max-width:2500px) {
+    .W{
+        font-weight: bolder;
+        font-size: 100px;
+        top: 200px;
+        position: absolute;
+        margin: 0px;
+        padding: 0px;
+        width: 40%;
+        margin-left: 200px;
+  }
+}
+
+
+  .LandingPage-container {
+    width: 90%;
+    margin: auto;
+    margin-top: 50px;
+    display: grid;
+    grid-template: "poster-1 poster-2 poster-3 poster-4";
+    column-gap: 10spx;
+  }
+  .Poster-container {
+    position: relative;
+    overflow: hidden;
+    border-radius: 5px;
+    height: 350px;
+  }
+  .Poster {
+    max-width: 100%;
+    z-index: 600;
+    transition: all 0.3s;
+  }
+  .Poster-overlay {
+    position: absolute;
+    top: 10px;
+    bottom: 0;
+    right: 50px;
+    left: 0;
+    z-index: 700;
+    opacity: 0;
+    transition: all 0.3s;
+  }
+  .Poster-container:hover .Poster {
+    filter: grayscale() blur(3px);
+    -webkit-filter: grayscale() blur(3px);
+}
+  .Poster-container:hover .Poster-overlay {
+    opacity: 1;
+  }
+  .Overlay-button {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 14px;
+    font-weight: 600;
+    cursor: pointer;
+    text-align: center;
+    letter-spacing: 1;
+    text-transform: uppercase;
+    padding: 10px 15px;
+    border: none;
+    border: 2px solid black;
+    color: black;
+    background-color: #fff;
+    border-radius: 3px;
+    transition: all 0.3s;
+  }
+  .Overlay-button:hover {
+    background: rgb(0, 0, 0);
+    color: #fff;
+    border: 2px solid black;
+  }
+  @media (max-width: 850px) {
+    .gutter {
+      margin-top: 100px;
+    }
+  }
+  @media (max-width: 700px) {
+    .LandingPage-container {
+      grid-template:
+        "poster-1"
+        "poster-2"
+        "poster-3"
+        "poster-4";
+      grid-row-gap: 50px;
+    }
+    .Poster-container {
+      margin: auto;
+    }
+  }

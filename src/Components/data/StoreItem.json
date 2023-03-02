@@ -1,0 +1,62 @@
+[
+    {
+        "id":1,
+        "name":"glitter",
+        "price":150,
+        "imgUrl":"/images/avatar-tes.jpg"
+    },
+    {
+        "id":2,
+        "name":"White Dress",
+        "price":500,
+        "imgUrl":"/images/0419492742_1_1_1_46319a75-613c-4f91-92ad-795d3f3048a7_1024x1024@2x.jpg"
+    },
+    {
+        "id":3,
+        "name":"Blazer",
+        "price":1000,
+        "imgUrl":"/images/azamat-zhanisov (1).jpg"
+    },
+    {
+        "id":4,
+        "name":"Black Dress",
+        "price":1500,
+        "imgUrl":"/images/h-women-img-ow7jc4vdxrhqcktzj2h7ns6k7u6e06isf768qn2zom.jpg"
+    },
+    {
+        "id":5,
+        "name":"White Half_boot",
+        "price":500,
+        "imgUrl":"/images/h-women-img-3-ow7jc5t84lj0o6smdkvu89y0t81r7vmirbtq7x1lie.jpg"
+    },
+    {
+        "id":6,
+        "name":"Chemise",
+        "price":200,
+        "imgUrl":"/images/minimalist-img-4_540x.jpg"
+    },
+    {
+        "id":7,
+        "name":"Laptop",
+        "price":500,
+        "imgUrl":"/images/avatar-tes.jpg"
+    },
+    {
+        "id":8,
+        "name":"Jacket",
+        "price":500,
+        "imgUrl":"/images/6348644800_1-1_540x.jpg"
+    },
+    {
+        "id":9,
+        "name":"Black_skirt",
+        "price":500,
+        "imgUrl":"/images/minimalist-img-7_1024x1024@2x.jpg"
+    },
+    {
+        "id":10,
+        "name":"Jeans_Skirt",
+        "price":300,
+        "imgUrl":"/images/minimalist-img-1_1024x1024@2x.jpg"
+    }
+]
